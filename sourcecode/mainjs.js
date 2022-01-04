@@ -15,6 +15,10 @@ function noInput(){
     errorMessage("Error, no input");
 }
 
+function calculate(){
+    
+}
+
 if (age || ""){
     noInput();
 }

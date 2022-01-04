@@ -39,12 +39,18 @@ body{
     border-radius: 20px;
 }
 
-.leftboxdesign{
+.boxdesign{
     display: flex;
     background-color: white;
     justify-content: center;
     flex: 0 0 auto;
     margin: 2rem;
+}
+
+.boxdesign :last-child{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .ahw{
@@ -67,4 +73,12 @@ body{
     justify-content: center;
     align-items: center;
     height: 20px;
+}
+
+.calc{
+    background-color: white;
+    border-color: white;
+    font-size: 15px;
+    border-radius: 30px;
+
 }
