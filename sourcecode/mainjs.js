@@ -1,27 +1,20 @@
-function printer(){
-    console.log("Console test. If this function shows in console, this means the javascript functions will work.");
-}
-
-printer();
-
-const age = document.getElementById('age');
-const height = document.getElementById('height');
-const weight = document.getElementById('weight');
-const activity = document.getElementById('list');
-const calories = document.getElementById('calories');
-
-
 function noInput(){
     alert("Please make sure that you have inputted all of the values, otherwise the program would not work");
     errorMessage("Error, no input");
 }
 
 function calculate(){
+    var age = document.getElementById("age").value;
+    var height = document.getElementById("height");
+    var weight = document.getElementById("weight");
+    var rd = document.getElementById("rd")
+    var activity = document.getElementById("list");
+    var calories = document.getElementById("calories"); 
     
+    if (age.value === null || weight.value === null || height.value === null || rd === null || list.value === null){
+        noInput();
+    }
+    else{
+        alert(age);
+    }
 }
-
-if (age || ""){
-    noInput();
-}
-
-calculate();
